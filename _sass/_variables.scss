@@ -1,6 +1,13 @@
 $base-red-text: #FDFDED;
-$base-red: #FF4C3D;
+$base-red: #C73B3A; //#FF4C3D;
 $base-red-light: lighten($base-red, 25%);
-$navbar-default-bg: $base-red-light;
-$navbar-default-color: #555;
-$navbar-default-link-color: #555;
+
+$navbar-default-bg: $base-red;
+$navbar-default-color: $base-red-text;
+$navbar-default-link-color: $base-red-text;
+$navbar-default-link-hover-color: lighten($base-red, 40%);
+$navbar-default-link-active-color: $navbar-default-link-color;
+
+//$font-family-sans-serif: 'brandon_grotesque_regularRg'
+$font-size-base: 18px;
+$font-family-sans-serif: 'brandon_grotesquebold';
